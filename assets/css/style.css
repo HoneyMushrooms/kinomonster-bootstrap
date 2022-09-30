@@ -1,0 +1,61 @@
+/** {
+	margin: 0;
+	padding: 0;
+}
+*/
+
+/******************************* header *********************************************/
+.header a, a:hover{
+	color: #f0ad4e;
+	text-decoration: none; /*отключает подчеркивание ссылки*/
+}
+
+.header h1 {
+	letter-spacing: 15px; /*интервал между литералами*/
+	font-size: 300%;
+}
+
+.header p {
+	color: white !important;
+	letter-spacing: 3px;
+	font-size: 90%;
+}
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+    color: #fff;
+    background-color: #346270;
+}
+
+.nav-pills>li>a{
+	color: white;
+}
+
+.nav>li>a:hover {
+    background-color: #346270;
+}
+
+.navbar-inverse {
+    padding: 1%;
+}
+
+/****************************************************************************************/
+
+@media (max-width: 767px){
+	.nav-pills>li {
+		float: none;
+	}
+
+	.nav-pills {
+		text-align: center;
+	}
+
+	.header h1{
+		letter-spacing: 5px;
+		font-size: 200%;
+	}
+
+	.header{
+		text-align: center;
+	}
+}
+
