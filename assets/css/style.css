@@ -4,6 +4,10 @@
 }
 */
 
+hr {
+	border-top: 2px solid #eee;
+}
+
 /******************************* header *********************************************/
 .header a, a:hover{
 	color: #f0ad4e;
@@ -59,3 +63,59 @@
 	}
 }
 
+
+
+
+
+/*///////////////////////////// content ////////////////////////////*/
+
+.films_block {
+	text-align: center;
+}
+
+.films_block img{
+	margin-bottom: 5%;
+	border-radius: 5px;
+	border: solid 5px #dad7d5;
+	width: 100%; /* чтобы правильно масштабировалась */
+}
+
+.film_label {
+	padding: 2%;
+	margin: 4%;
+}
+
+.clear {
+	clear: both;         /*обтекание*/
+	height: 63px;
+}
+
+.margin-8 {  /* класс разделитель */
+	margin-top: 8%; 
+}
+
+/**************************** footer *************************/
+.wrapper {
+	min-height: 100%;
+}
+
+html, body {
+	height: 100%;
+}
+
+footer {
+	color: #666;
+	background: #222;
+	padding: 17px 18px;
+	border-top: 1px solid #000;
+}
+
+footer a{
+	color: #999;
+}
+
+footer a:hover{
+	color: #efefef;
+}
+
+/***************************************************************/
