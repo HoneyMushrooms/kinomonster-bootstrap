@@ -1,0 +1,7 @@
+		Grid system 
+
+
+ 1200px или больше           col-lg-*
+от 992px до 1199px           col-md-*
+ от 768px до 991px           col-sm-*
+	меньше 768px	     col-xs-*
