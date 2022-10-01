@@ -40,6 +40,7 @@ hr {
 
 .navbar-inverse {
     padding: 1%;
+    border-radius: 0;
 }
 
 /****************************************************************************************/
@@ -93,6 +94,45 @@ hr {
 .margin-8 {  /* класс разделитель */
 	margin-top: 8%; 
 }
+
+/*////////////////////////////////////////////////////////////////////*/
+
+
+
+/**************************** sidebar *********************************/
+
+
+.panel-info {
+	border: none;
+}
+
+.panel-body {
+	background-color: #f9f9f9;
+}
+
+.panel-info>.panel-heading {
+	background-color: #f0ad4e;
+	color: white;
+	border-color: transparent;
+}
+
+.sidebar-header {
+	font-size: 120%;
+	letter-spacing: 2px;
+}
+
+.form-control {
+	border-radius: 0px;
+}
+
+.input-lg{
+	font-size: 14px;
+}
+
+.badge{
+	background-color: black;
+}
+/*********************************************************************/
 
 /**************************** footer *************************/
 .wrapper {
